@@ -1,0 +1,32 @@
+/*CONTENEDOR SUBTIRULO Y FORM*/
+ul{
+    padding-left: 0;
+}
+
+.contenedor-form-boostrap{
+    font-size: 12px;
+    background-color: rgb(255, 239, 251);
+    margin: 2rem 0;
+    padding: 2rem;
+    border: 1px solid #ad10ad;
+    border-radius:20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    border: 1px solid rgb(218, 179, 255);
+}
+
+/*BOTON ENVIAR*/
+.btn-primary {
+    background-color: #710671;
+    border: 1px solid #ad10ad;
+    border-radius:10px; 
+}
+.btn-primary:hover{
+    color: #710671;
+    background-color: white;
+    border: 1px solid #ad10ad;
+    border-radius:10px; 
+}
+

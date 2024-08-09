@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio web de información sobre violencia de genero.">
+  <meta name="keywords" content="violencia de genero, violencia intrafamiliar, violencia doméstica, ciclos de violencia, femicidio, marco legal ">
+  <!-- Fonts Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/styles.css"><!-- estilos generales -->
+  <link rel="stylesheet" href="./CSS/estiloscontacto.css">
+  <title>Contacto</title>
+</head>
+<body>
+  <header>
+    <div class="menu" id="menu">
+        <nav>
+            <ul>
+                <li class="li1"><a href="index.html">Inicio</a></li>
+                <li class="li5"><a href="quienes-somos.html">Quienes somos</a></li>
+                <li class="li2"><a href="marcolegal.html">Marco Legal</a></li>
+                <li class="li4"><a href="contacto.html">Suscripción</a></li>
+                <li class="li3"><a href="links-de-interes.html">Links de interes</a></li>
+            </ul>  
+        </nav> 
+    </div>
+  </header>
+  <main>
+      <h1>Registro Newsletter</h1>
+      <section>
+        <h2>Envianos tus datos para recibir novedades.</h2>
+        <div class="contenedor-form-boostrap">
+          <form class="row g-3" id="form-login">
+            <div class="col-md-6">
+              <label for="nombre" class="form-label">Nombre y Apellido</label>
+              <input type="text" placeholder="Nombre Completo" class="form-control" id="nombre" required>
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" placeholder="Email" class="form-control" id="email" required>
+            </div>
+            <div class='respuesta' id="divContenidoLogin"></div>
+            <!-- 
+            <div class="col-md-6">
+              <label for="password">Contraseña</label>
+              <input type="password" placeholder="Contraseña" name="password" class="form-control" id="password" required>
+            </div>
+            -->
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary" id="submit">Enviar</button>
+              <button type="reset" class="btn btn-primary" id="reset">Borrar</button>
+            </div>
+          </form>
+        </div>
+        
+    </section>
+    <div class="suscribirse"><button><a href="contacto.html">Suscribirse</a></button></div>
+    <a href="#menu" class="btn-arrow">
+      <img src="./assets/flecha.png" alt="flecha arriba" class="flecha">
+    </a>
+  </main>
+  <footer>    
+    <span><strong id="margincopy">&copy;Loper </strong></span>
+    <span><strong>Asociación Civil Loper</strong> | Espacio social, cultural y familiar.| Calle 48 N°500. La Plata. Buenos Aires. Argentina.</span>
+    <span>Lunes a sábados 10 a 19 hs.| info@loper.org| <a class="enlace" href="tel:+542214354478">Tel: (+54 221)4255555</a>| Tel de emergencias: <a  class="enlace" href="tel:+542214256666">(+54 221)4256666</a></span>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="js/contacto.js"></script>
+</body>
+</html>

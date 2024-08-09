@@ -1,0 +1,63 @@
+.flexley {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #ad10ad;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.flexley .images img, .manosunidas a img  {
+    width: 20rem;
+    height: 15rem;
+    padding: 5px;
+    margin-top: 20px; 
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+p{
+    text-align: justify;
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+#violenciagenero {
+    width: 20rem;
+    padding: 5px;
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 480px) {    
+    #violenciagenero, .manosunidas a img {
+        width: 25rem;
+        border-radius: 20px;
+    }         
+}
+  
+@media screen and (min-width: 768px) {
+    .images{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+            
+@media screen and (min-width: 1024px) {   
+    .flexley .images img, #violenciagenero, .manosunidas a img {
+        width: 30rem;
+        height: 25rem;
+        border-radius: 30px;
+    }
+}

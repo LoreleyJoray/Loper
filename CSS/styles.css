@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"Raleway", sans-serif;
+    background-color:rgb(253, 249, 230);
+}
+
+main{
+    margin: 0 2rem;
+}
+
+/* Menu de navegación*/
+.menu ul{
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+.menu ul li a{
+    color:rgb(255, 225, 230);
+    font-weight: bold;
+    border-style:inset;
+    display: block;
+    padding: 10px 5px;
+    text-decoration: none;
+    background-color: #ad10ad;
+
+}
+
+.menu ul li a:hover{
+    background-color: rgb(245, 114, 243);
+}
+
+.li1 {
+    order: 1;
+    flex-grow: 2;
+    text-align: center;
+}
+.li2 {
+    order: 2;
+    flex-grow: 2;
+    text-align: center;
+}
+.li3 {
+    order: 3;
+    flex-grow: 2;
+    text-align: center;
+}
+.li4 {
+    order: 4;
+    flex-grow: 2;
+    text-align: center;
+}
+.li5 {
+    order: 5;
+    flex-grow: 2;
+    text-align: center;
+}
+
+/* Títulos*/
+h1 {
+    color:rgb(255, 225, 230); 
+    font-size: 25px;
+    font-style: normal;
+    font-weight:700 ;
+    letter-spacing: 5px;
+    border-radius: 10px;
+    margin: 30px 0px 30px 0px;
+    text-align: center;  
+    outline-style: double; 
+    background-color:  #710671;
+}
+
+h2 {
+    color: #ad10ad;
+    margin: 1rem 0;
+    text-align: center;
+    border-radius: 10px; 
+    border: 1px solid #ad10ad;
+    padding: 10px;
+    background-color: rgb(255, 239, 251);
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 20px; 
+    letter-spacing: 5px;
+    color: #ad10ad
+}
+
+/* Párrafos*/
+p {
+    text-align: justify;
+    line-height: 2;
+}
+/*Botón para suscribirse*/
+.suscribirse button a{
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    background-color:#710671;
+    color: white;
+    border: 1px solid #ad10ad;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+.suscribirse button a:hover{
+    text-decoration: none;
+    background-color:white;
+    color: #ad10ad;
+    border: 1px solid #ad10ad;
+}
+
+/* Flecha para ir al inicio */
+.btn-arrow {
+    right: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    background-color:rgb(255, 209, 243);
+    border-radius: 50%;
+    border: 1px solid #710671;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    border-radius: 50%;
+}
+.flecha {
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Footer */
+footer{
+    font-size: 12px;
+    text-align: center;
+    color:rgb(253, 249, 230);
+    background-color: #ad10ad;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    height: 10rem;
+}
+
+#margincopy {
+    padding: 0 5px;
+}
+
+.enlace{
+    text-decoration: none;
+    color:rgb(253, 249, 230);
+}
+
+@media screen and (min-width: 768px) {
+
+    footer {
+        height: 5rem;
+    }
+}

@@ -1,0 +1,97 @@
+em {
+    color: rgb(239, 17, 213);
+    letter-spacing: 5px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+em:hover {
+    color: rgb(120, 1, 108);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.denuncia{
+    padding: 10px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px; 
+    border: 1px solid #ad10ad;
+    background-color: rgb(255, 239, 251);
+    box-sizing: border-box;
+    overflow: auto;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+} 
+
+.denuncia:hover {
+    background-color: rgb(250, 183, 255); 
+} 
+
+.contenedor-recursos{
+    padding: 0px;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px; 
+    border: 1px solid #ad10ad;
+    /* background-color: rgb(255, 239, 251); */
+    box-sizing: border-box;
+    overflow: hidden;
+    word-break: break-all
+}
+
+.tituloslinks {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ad10ad;
+}
+
+.telef{
+    border-radius: 10px; 
+    /* border: 1px solid #ad10ad; */
+    width: 15rem;
+    padding: 10px;
+}
+
+.contenedor-recursos li{
+    padding: 5px;
+}
+
+.contenedor-recursos img {
+    border-radius: 20px;
+}
+.texto-recursos{
+    padding: 15px;
+    margin: 3px 3px 3px 15px;
+    height: 40%;
+    width: 65%;
+    font-size: 18px;
+}
+
+ul {
+    margin: 1rem 0;
+}
+   
+@media screen and (min-width: 480px) {
+    /*.media {background-color: aqua;}*/
+    .contenedor-recursos {flex-direction: column;}
+    .telef {width: 20rem;}
+    }
+
+@media screen and (min-width: 768px) {
+    /*.media {background-color: rgb(60, 10, 179)};*/
+    .contenedor-recursos {flex-direction: row; padding-right: 10px;}
+    .telef {width: 25rem;}
+    }
+
+@media screen and (min-width: 1024px) {
+    /*.media {background-color: rgb(0, 5, 5);} */
+    .contenedor-recursos {flex-direction: row;}
+    .telef {width: 30rem;}
+    }
+
